@@ -1,0 +1,12 @@
+let killCount = 0;
+let deathCount = 0;
+
+function increaseKill() {
+    killCount++;
+    document.getElementById('kill-count').textContent = killCount;
+}
+
+function increaseDeath() {
+    deathCount++;
+    document.getElementById('death-count').textContent = deathCount;
+}
